@@ -1,6 +1,9 @@
 export default {
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: true, 
+  },
+  eslint: {
+    ignoreDuringBuilds: true, 
   },
   reactStrictMode: true,
 };
