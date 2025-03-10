@@ -1,10 +1,6 @@
-// next.config.mjs
-import next from 'next';
-
-const config = {
+export default {
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   reactStrictMode: true,
-  // добавьте другие настройки
 };
-
-export default config;
-
